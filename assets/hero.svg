@@ -1,0 +1,117 @@
+<svg width="1200" height="440" viewBox="0 0 1200 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ilkay Tevfik Devran — Senior Data Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0118"/>
+      <stop offset="50%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#140726"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="45%" stop-color="#c4b5fd"/>
+      <stop offset="75%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#ff4fa3"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#8A2BE2" stop-opacity="0.06"/>
+    </linearGradient>
+    <linearGradient id="pipe" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8A2BE2"/>
+      <stop offset="50%" stop-color="#3A86FF"/>
+      <stop offset="100%" stop-color="#FF006E"/>
+    </linearGradient>
+    <radialGradient id="coreFill">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="40%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#8A2BE2" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="bigGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="14" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frame"><rect width="1200" height="440" rx="28"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="440" fill="url(#bg)"/>
+
+    <!-- grid -->
+    <g stroke="#8A2BE2" opacity="0.10">
+      <path d="M0 55H1200M0 110H1200M0 165H1200M0 220H1200M0 275H1200M0 330H1200M0 385H1200"/>
+      <path d="M100 0V440M200 0V440M300 0V440M400 0V440M500 0V440M600 0V440M700 0V440M800 0V440M900 0V440M1000 0V440M1100 0V440"/>
+    </g>
+
+    <!-- ambient orbs -->
+    <circle cx="120" cy="60" r="140" fill="#8A2BE2" opacity="0.12" filter="url(#bigGlow)"/>
+    <circle cx="1100" cy="400" r="160" fill="#FF006E" opacity="0.10" filter="url(#bigGlow)"/>
+
+    <!-- header -->
+    <text x="600" y="78" text-anchor="middle" font-family="'Fira Code','JetBrains Mono',Consolas,monospace" font-size="44" font-weight="800" letter-spacing="3" fill="url(#title)" filter="url(#glow)">ILKAY TEVFIK DEVRAN</text>
+    <text x="600" y="116" text-anchor="middle" font-family="'Fira Code','JetBrains Mono',Consolas,monospace" font-size="19" fill="#c4b5fd">Senior Data Engineer  ·  Real-time Data  ·  AI Products</text>
+
+    <!-- pipeline line -->
+    <path id="flow" d="M80 240H1120" stroke="url(#pipe)" stroke-width="2" opacity="0.55" filter="url(#glow)"/>
+
+    <!-- data packets -->
+    <g filter="url(#glow)">
+      <circle r="4" fill="#FF006E"><animateMotion dur="5s" repeatCount="indefinite" path="M80 240H1120"/></circle>
+      <circle r="3" fill="#60a5fa"><animateMotion dur="5s" begin="1.2s" repeatCount="indefinite" path="M80 240H1120"/></circle>
+      <circle r="4" fill="#c084fc"><animateMotion dur="5s" begin="2.5s" repeatCount="indefinite" path="M80 240H1120"/></circle>
+      <circle r="3" fill="#ff4fa3"><animateMotion dur="5s" begin="3.7s" repeatCount="indefinite" path="M80 240H1120"/></circle>
+    </g>
+
+    <!-- nodes -->
+    <g font-family="'Fira Code','JetBrains Mono',Consolas,monospace" text-anchor="middle">
+      <g>
+        <rect x="70" y="195" width="190" height="90" rx="18" fill="url(#glass)" stroke="#8A2BE2" stroke-opacity="0.8"/>
+        <text x="165" y="232" font-size="18" font-weight="700" fill="#c084fc">INGEST</text>
+        <text x="165" y="258" font-size="13" fill="#e5e7eb">APIs · Streams · CDC</text>
+      </g>
+      <g>
+        <rect x="300" y="195" width="190" height="90" rx="18" fill="url(#glass)" stroke="#7c5cff" stroke-opacity="0.8"/>
+        <text x="395" y="232" font-size="18" font-weight="700" fill="#a5b4fc">TRANSFORM</text>
+        <text x="395" y="258" font-size="13" fill="#e5e7eb">Pipelines that scale</text>
+      </g>
+      <g>
+        <rect x="710" y="195" width="190" height="90" rx="18" fill="url(#glass)" stroke="#3A86FF" stroke-opacity="0.8"/>
+        <text x="805" y="232" font-size="18" font-weight="700" fill="#60a5fa">SERVE</text>
+        <text x="805" y="258" font-size="13" fill="#e5e7eb">LLM gateways &amp; agents</text>
+      </g>
+      <g>
+        <rect x="940" y="195" width="190" height="90" rx="18" fill="url(#glass)" stroke="#FF006E" stroke-opacity="0.8"/>
+        <text x="1035" y="232" font-size="18" font-weight="700" fill="#ff4fa3">DELIVER</text>
+        <text x="1035" y="258" font-size="13" fill="#e5e7eb">Insights &amp; AI products</text>
+      </g>
+    </g>
+
+    <!-- core -->
+    <circle cx="600" cy="240" r="72" fill="#8A2BE2" opacity="0.18" filter="url(#bigGlow)">
+      <animate attributeName="r" values="66;84;66" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="240" r="50" fill="none" stroke="#c084fc" stroke-width="2.5" stroke-dasharray="18 10">
+      <animateTransform attributeName="transform" type="rotate" from="0 600 240" to="360 600 240" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="240" r="62" fill="none" stroke="#FF006E" stroke-width="1.5" stroke-dasharray="4 14" opacity="0.8">
+      <animateTransform attributeName="transform" type="rotate" from="360 600 240" to="0 600 240" dur="14s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="240" r="38" fill="url(#coreFill)" filter="url(#glow)">
+      <animate attributeName="opacity" values="0.65;1;0.65" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="600" y="245" text-anchor="middle" font-family="'Fira Code',Consolas,monospace" font-size="12" font-weight="800" fill="#1e0638">DATA+AI</text>
+
+    <!-- tagline -->
+    <text x="600" y="355" text-anchor="middle" font-family="'Fira Code','JetBrains Mono',Consolas,monospace" font-size="17" letter-spacing="2" fill="#c4b5fd">RAW DATA  →  RELIABLE PIPELINES  →  AI THAT SHIPS</text>
+    <text x="600" y="390" text-anchor="middle" font-family="'Fira Code','JetBrains Mono',Consolas,monospace" font-size="14" fill="#8b949e">Istanbul, TR  ·  AWS + GCP  ·  Infra-as-code</text>
+
+    <!-- scan line -->
+    <rect x="0" y="0" width="1200" height="2" fill="#c084fc" opacity="0.35">
+      <animate attributeName="y" values="0;440;0" dur="8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <rect x="0.75" y="0.75" width="1198.5" height="438.5" rx="28" fill="none" stroke="#8A2BE2" stroke-opacity="0.45" stroke-width="1.5"/>
+</svg>

@@ -1,0 +1,169 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="whoami: Senior Data Engineer. Skills: Data Engineering, Real-Time Data, Anomaly Detection, Cloud Cost Cutting, Ai-Powered Products, Llm Platforms, Security, Team Lead &amp; Mentor, Ai Dev Harness, Aws + Gcp, Infrastructure As Code, Observability.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#130a24"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8A2BE2"/>
+      <stop offset="50%" stop-color="#3A86FF"/>
+      <stop offset="100%" stop-color="#FF006E"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#8A2BE2" stop-opacity="0.04"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frame"><rect width="1200" height="720" rx="20"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="720" fill="url(#bg)"/>
+    <rect width="1200" height="44" fill="#161b22"/>
+    <rect y="44" width="1200" height="2" fill="url(#bar)"/>
+    <circle cx="30" cy="22" r="7" fill="#ff5f57"/>
+    <circle cx="54" cy="22" r="7" fill="#febc2e"/>
+    <circle cx="78" cy="22" r="7" fill="#28c840"/>
+    <text x="600" y="27" text-anchor="middle" font-family="'Fira Code','JetBrains Mono',Consolas,monospace" font-size="14" fill="#8b949e">ilkay@istanbul: ~</text>
+
+    <g font-family="'Fira Code','JetBrains Mono',Consolas,monospace" xml:space="preserve">
+      <g>
+        <text x="40" y="88" font-size="17"><tspan fill="#FF006E">❯</tspan><tspan fill="#e5e7eb"> whoami</tspan></text>
+        <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.462;1" dur="0.65s" fill="freeze"/>
+      </g>
+      <g>
+        <text x="40" y="116" font-size="17" fill="#c4b5fd">Senior Data Engineer. I turn messy data into reliable platforms, and ideas into AI products.</text>
+        <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.696;1" dur="1.15s" fill="freeze"/>
+      </g>
+      <g>
+        <text x="40" y="170" font-size="17"><tspan fill="#FF006E">❯</tspan><tspan fill="#e5e7eb"> ls ~/what-i-do</tspan></text>
+        <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.788;1" dur="1.65s" fill="freeze"/>
+      </g>
+      <g>
+        <rect x="40" y="196" width="364" height="92" rx="12" fill="url(#glass)" stroke="#c084fc" stroke-opacity="0.45"/>
+        <rect x="40" y="212" width="3" height="60" rx="1.5" fill="#c084fc" filter="url(#glow)"/>
+        <text x="62" y="228" font-size="15" font-weight="700" fill="#c084fc">DATA ENGINEERING</text>
+        <text x="386" y="228" font-size="12" fill="#484f58" text-anchor="end">01</text>
+        <text x="62" y="252" font-size="13" fill="#e5e7eb">Batch &amp; streaming pipelines,</text>
+        <text x="62" y="271" font-size="13" fill="#9ca3af">lakes and warehouses that scale</text>
+        <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.829;1" dur="2.05s" fill="freeze"/>
+      </g>
+      <g>
+        <rect x="418" y="196" width="364" height="92" rx="12" fill="url(#glass)" stroke="#60a5fa" stroke-opacity="0.45"/>
+        <rect x="418" y="212" width="3" height="60" rx="1.5" fill="#60a5fa" filter="url(#glow)"/>
+        <text x="440" y="228" font-size="15" font-weight="700" fill="#60a5fa">REAL-TIME DATA</text>
+        <text x="764" y="228" font-size="12" fill="#484f58" text-anchor="end">02</text>
+        <text x="440" y="252" font-size="13" fill="#e5e7eb">Live event streams turned into</text>
+        <text x="440" y="271" font-size="13" fill="#9ca3af">insights within seconds</text>
+        <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.843;1" dur="2.23s" fill="freeze"/>
+      </g>
+      <g>
+        <rect x="796" y="196" width="364" height="92" rx="12" fill="url(#glass)" stroke="#ff4fa3" stroke-opacity="0.45"/>
+        <rect x="796" y="212" width="3" height="60" rx="1.5" fill="#ff4fa3" filter="url(#glow)"/>
+        <text x="818" y="228" font-size="15" font-weight="700" fill="#ff4fa3">ANOMALY DETECTION</text>
+        <text x="1142" y="228" font-size="12" fill="#484f58" text-anchor="end">03</text>
+        <text x="818" y="252" font-size="13" fill="#e5e7eb">Catching fraud and outliers</text>
+        <text x="818" y="271" font-size="13" fill="#9ca3af">the moment they happen</text>
+        <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.855;1" dur="2.41s" fill="freeze"/>
+      </g>
+      <g>
+        <rect x="40" y="302" width="364" height="92" rx="12" fill="url(#glass)" stroke="#fbbf24" stroke-opacity="0.45"/>
+        <rect x="40" y="318" width="3" height="60" rx="1.5" fill="#fbbf24" filter="url(#glow)"/>
+        <text x="62" y="334" font-size="15" font-weight="700" fill="#fbbf24">CLOUD COST CUTTING</text>
+        <text x="386" y="334" font-size="12" fill="#484f58" text-anchor="end">04</text>
+        <text x="62" y="358" font-size="13" fill="#e5e7eb">Same results, smaller bills:</text>
+        <text x="62" y="377" font-size="13" fill="#9ca3af">spot, right-sizing, smart storage</text>
+        <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.865;1" dur="2.59s" fill="freeze"/>
+      </g>
+      <g>
+        <rect x="418" y="302" width="364" height="92" rx="12" fill="url(#glass)" stroke="#e879f9" stroke-opacity="0.45"/>
+        <rect x="418" y="318" width="3" height="60" rx="1.5" fill="#e879f9" filter="url(#glow)"/>
+        <text x="440" y="334" font-size="15" font-weight="700" fill="#e879f9">AI-POWERED PRODUCTS</text>
+        <text x="764" y="334" font-size="12" fill="#484f58" text-anchor="end">05</text>
+        <text x="440" y="358" font-size="13" fill="#e5e7eb">Internal tools for every team</text>
+        <text x="440" y="377" font-size="13" fill="#9ca3af">and department, built fast with AI</text>
+        <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.874;1" dur="2.77s" fill="freeze"/>
+      </g>
+      <g>
+        <rect x="796" y="302" width="364" height="92" rx="12" fill="url(#glass)" stroke="#22d3ee" stroke-opacity="0.45"/>
+        <rect x="796" y="318" width="3" height="60" rx="1.5" fill="#22d3ee" filter="url(#glow)"/>
+        <text x="818" y="334" font-size="15" font-weight="700" fill="#22d3ee">LLM PLATFORMS</text>
+        <text x="1142" y="334" font-size="12" fill="#484f58" text-anchor="end">06</text>
+        <text x="818" y="358" font-size="13" fill="#e5e7eb">Gateways, budgets and usage</text>
+        <text x="818" y="377" font-size="13" fill="#9ca3af">tracking for safe, affordable AI</text>
+        <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.881;1" dur="2.95s" fill="freeze"/>
+      </g>
+      <g>
+        <rect x="40" y="408" width="364" height="92" rx="12" fill="url(#glass)" stroke="#f87171" stroke-opacity="0.45"/>
+        <rect x="40" y="424" width="3" height="60" rx="1.5" fill="#f87171" filter="url(#glow)"/>
+        <text x="62" y="440" font-size="15" font-weight="700" fill="#f87171">SECURITY</text>
+        <text x="386" y="440" font-size="12" fill="#484f58" text-anchor="end">07</text>
+        <text x="62" y="464" font-size="13" fill="#e5e7eb">Least privilege, secret scanning</text>
+        <text x="62" y="483" font-size="13" fill="#9ca3af">and AI-assisted security reviews</text>
+        <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.888;1" dur="3.13s" fill="freeze"/>
+      </g>
+      <g>
+        <rect x="418" y="408" width="364" height="92" rx="12" fill="url(#glass)" stroke="#34d399" stroke-opacity="0.45"/>
+        <rect x="418" y="424" width="3" height="60" rx="1.5" fill="#34d399" filter="url(#glow)"/>
+        <text x="440" y="440" font-size="15" font-weight="700" fill="#34d399">TEAM LEAD &amp; MENTOR</text>
+        <text x="764" y="440" font-size="12" fill="#484f58" text-anchor="end">08</text>
+        <text x="440" y="464" font-size="13" fill="#e5e7eb">Leading engineers and sharing</text>
+        <text x="440" y="483" font-size="13" fill="#9ca3af">know-how across the team</text>
+        <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.894;1" dur="3.31s" fill="freeze"/>
+      </g>
+      <g>
+        <rect x="796" y="408" width="364" height="92" rx="12" fill="url(#glass)" stroke="#a78bfa" stroke-opacity="0.45"/>
+        <rect x="796" y="424" width="3" height="60" rx="1.5" fill="#a78bfa" filter="url(#glow)"/>
+        <text x="818" y="440" font-size="15" font-weight="700" fill="#a78bfa">AI DEV HARNESS</text>
+        <text x="1142" y="440" font-size="12" fill="#484f58" text-anchor="end">09</text>
+        <text x="818" y="464" font-size="13" fill="#e5e7eb">Guardrails that let engineers ship</text>
+        <text x="818" y="483" font-size="13" fill="#9ca3af">with AI without losing control</text>
+        <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.900;1" dur="3.49s" fill="freeze"/>
+      </g>
+      <g>
+        <rect x="40" y="514" width="364" height="92" rx="12" fill="url(#glass)" stroke="#60a5fa" stroke-opacity="0.45"/>
+        <rect x="40" y="530" width="3" height="60" rx="1.5" fill="#60a5fa" filter="url(#glow)"/>
+        <text x="62" y="546" font-size="15" font-weight="700" fill="#60a5fa">AWS + GCP</text>
+        <text x="386" y="546" font-size="12" fill="#484f58" text-anchor="end">10</text>
+        <text x="62" y="570" font-size="13" fill="#e5e7eb">Multi-cloud, picking the right</text>
+        <text x="62" y="589" font-size="13" fill="#9ca3af">service for each job</text>
+        <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.905;1" dur="3.67s" fill="freeze"/>
+      </g>
+      <g>
+        <rect x="418" y="514" width="364" height="92" rx="12" fill="url(#glass)" stroke="#c084fc" stroke-opacity="0.45"/>
+        <rect x="418" y="530" width="3" height="60" rx="1.5" fill="#c084fc" filter="url(#glow)"/>
+        <text x="440" y="546" font-size="15" font-weight="700" fill="#c084fc">INFRASTRUCTURE AS CODE</text>
+        <text x="764" y="546" font-size="12" fill="#484f58" text-anchor="end">11</text>
+        <text x="440" y="570" font-size="13" fill="#e5e7eb">Every environment versioned,</text>
+        <text x="440" y="589" font-size="13" fill="#9ca3af">reviewable and reproducible</text>
+        <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.909;1" dur="3.85s" fill="freeze"/>
+      </g>
+      <g>
+        <rect x="796" y="514" width="364" height="92" rx="12" fill="url(#glass)" stroke="#ff4fa3" stroke-opacity="0.45"/>
+        <rect x="796" y="530" width="3" height="60" rx="1.5" fill="#ff4fa3" filter="url(#glow)"/>
+        <text x="818" y="546" font-size="15" font-weight="700" fill="#ff4fa3">OBSERVABILITY</text>
+        <text x="1142" y="546" font-size="12" fill="#484f58" text-anchor="end">12</text>
+        <text x="818" y="570" font-size="13" fill="#e5e7eb">Alarms, dashboards and alerts</text>
+        <text x="818" y="589" font-size="13" fill="#9ca3af">before anyone has to ask</text>
+        <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.913;1" dur="4.03s" fill="freeze"/>
+      </g>
+      <g>
+        <text x="40" y="652" font-size="17"><tspan fill="#FF006E">❯</tspan><tspan fill="#e5e7eb"> ./now --status</tspan></text>
+        <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.922;1" dur="4.51s" fill="freeze"/>
+      </g>
+      <g>
+        <text x="40" y="682" font-size="17"><tspan fill="#28c840">●</tspan><tspan fill="#c4b5fd"> Building AI-powered tools that every team can actually use</tspan></text>
+        <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.930;1" dur="5.01s" fill="freeze"/>
+      </g>
+      <rect x="668" y="668" width="10" height="19" fill="#c084fc">
+        <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.930;1" dur="5.01s" fill="freeze"/>
+        <animate attributeName="opacity" values="1;0;1" dur="1s" begin="4.76s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+
+  <rect x="0.75" y="0.75" width="1198.5" height="718.5" rx="20" fill="none" stroke="#8A2BE2" stroke-opacity="0.45" stroke-width="1.5"/>
+</svg>
